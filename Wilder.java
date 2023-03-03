@@ -7,7 +7,7 @@ public class Wilder {
     // constructeurs  
     public Wilder(String firstname, boolean aware) {  
         this.firstname = firstname;  
-        this.aware = false;  
+        this.aware = aware;  
     }  
 
     // accesseurs et mutateurs  
